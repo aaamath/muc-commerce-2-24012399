@@ -41,6 +41,6 @@ def answer_question(base_dir: Path, question: str) -> str:
         return f"用户平均订单数均值为{order_mean:.2f}单，全生命周期用户订单中位数为{order_median:.2f}单。"
 
     return (
-        "基础问答尚未完成。目前只能回答总用户数；请继续完成TODO 4-1。"
+        "基础问答尚未完成。目前只能回答总用户数；"
         "请换一种更具体的问法。"
     )
